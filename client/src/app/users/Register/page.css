@@ -1,0 +1,74 @@
+
+
+.heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #daf3ba
+         
+    }
+
+.form {
+    border: px solid black;
+    border: 1px solid black; /* Fixed border style */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the card */
+    background-color: #c3e2da; /* White background for the card */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    max-width: 400px; /* Maximum width for the card */
+    
+    width: 100%; /* Full width up to the m*/
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user_name  label{
+
+    margin-right: 12px;
+   
+ 
+}
+
+.border{
+    border: 10px black;
+}
+
+.user_name{
+    margin-bottom: 20px;
+} 
+
+.email label {
+    margin-right: 43px;
+}
+.email{
+    margin-bottom: 20px;
+}
+
+.password{
+    margin-bottom: 20px;
+}
+.password label {
+    margin-right: 10px;
+}
+
+.phone{
+    margin-bottom: 20px;
+
+}
+
+.phone label {
+    margin-right: 30px;
+
+}
+input {
+    min-height: 30px;
+}
+button{
+    height: 25px;
+    width: 60px;
+}
